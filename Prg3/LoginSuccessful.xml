@@ -1,0 +1,10 @@
+<TextView
+ android:id="@+id/textView2"
+ android:layout_width="297dp"
+ android:layout_height="190dp"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginEnd="42dp"
+ android:layout_marginBottom="400dp"
+ android:text="Login Successful"
+ android:textSize="38dp" />

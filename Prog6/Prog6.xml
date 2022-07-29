@@ -1,0 +1,41 @@
+<TextView
+ android:id="@+id/textView"
+ android:layout_width="292dp"
+ android:layout_height="wrap_content"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginEnd="57dp"
+ android:layout_marginBottom="597dp"
+ android:text="Parsing XML and JSON"
+ android:textAlignment="center"
+ android:textSize="26dp" />
+ <Button
+ android:id="@+id/button"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginEnd="116dp"
+ android:layout_marginBottom="486dp"
+ android:onClick="parsexml"
+ android:text="ParseXML" />
+ <Button
+ android:id="@+id/button2"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginEnd="116dp"
+ android:layout_marginBottom="366dp"
+ android:onClick="parsejson"
+ android:text="ParseJSON" />
+ <TextView
+ android:id="@+id/display"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginEnd="3dp"
+ android:layout_marginBottom="68dp"
+ android:text=""
+ android:textAlignment="center" />
